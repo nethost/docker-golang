@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM nethost/alpine:3.18 as latest
+FROM nethost/alpine:3.18 AS latest
 
 RUN apk add --no-cache ca-certificates
 
